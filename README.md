@@ -9,7 +9,7 @@ Aware Citizen is a project based on Open AI GPT-4-Turbo model that lets you choo
 
 # 🗳️ Aware Citizen: AI-Powered Political Insight Platform
 
-**Aware Citizen** is an AI-driven web app that helps users make informed voting decisions by analyzing political parties' current promises, historical reliability, and projected impacts on living conditions.
+**Aware Citizen** is an AI-driven web app that informs users by analyzing political parties' current promises, historical reliability, and projected impacts on living conditions.
 
 Built with **Streamlit**, **OpenAI GPT-4**, and real-world data from Wikipedia and economic sources, the platform gives each party a satisfaction score (0–20) and a clear explanation, helping citizens navigate complex political landscapes.
 
