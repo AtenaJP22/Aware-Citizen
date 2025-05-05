@@ -8,8 +8,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import re
 from openai import OpenAI
-from dotenv import load_dotenv
-import os
+
 
 # ====== API KEY CONFIGURATION ======
 load_dotenv()
