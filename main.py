@@ -92,7 +92,7 @@ def main():
     st.title("🙋🏻‍♀️💡 Aware Citizen: Political Economy Analysis")
     st.markdown("Choose your country to analyze political party promises and predicted impacts on daily life.")
     st.markdown("💭 This system uses AI to evaluate political parties based on their promises and historical performance.")
-    st.markdown("🚨 Disclaimer: This system is LLM-Based. Please note that the results may be incorrect due to the Open AI model's hallucinations! Thank you for your understanding! 🙏🏻") 
+    st.markdown("🚨 Disclaimer: This system is LLM-Based. Please note that the results may be incorrect due to the LLM's hallucinations! Thank you for your understanding! 🙏🏻") 
     st.markdown("❗️ Attention: Please enter the full name of the country with no space!")
 
     country = st.text_input("🔍 Enter Country Name:", "Italy")
