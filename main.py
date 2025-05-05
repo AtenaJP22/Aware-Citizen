@@ -95,7 +95,7 @@ def main():
     st.markdown("🚨 Disclaimer: This system is LLM-Based. Please note that the results may be incorrect due to the Open AI model's hallucinations! Thank you for your understanding! 🙏🏻") 
     st.markdown("❗️ Attention: Please enter the full name of the country with no space!")
 
-    country = st.text_input("🔍 Enter Country Name:", "Canada")
+    country = st.text_input("🔍 Enter Country Name:", "Italy")
     
     if country in flag_urls:
      st.image(flag_urls[country], width=100, caption=f"{country} Flag")
