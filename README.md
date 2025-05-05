@@ -13,7 +13,7 @@ Aware Citizen is a project based on Open AI GPT-4-Turbo model that lets you choo
 
 Built with **Streamlit**, **OpenAI GPT-4**, and real-world data from Wikipedia and economic sources, the platform gives each party a satisfaction score (0–20) and a clear explanation, helping citizens navigate complex political landscapes.
 
-🌐 **[Live App on Streamlit Cloud](https://aware-citizen.streamlit.app)** 
+🌐 **[Live App on Streamlit Cloud]** 
 
 ---
 
@@ -26,12 +26,6 @@ Built with **Streamlit**, **OpenAI GPT-4**, and real-world data from Wikipedia a
 - 🧠 **Source-Backed Explanations**: AI justifies every score with contextual reasoning.
 - 🇺🇳 **Dynamic Flags**: Automatically shows national flags for over 200 countries.
 - 📷 **Modern UI**: Engaging interface with banners, score charts, and responsive layout.
-
----
-
-## 🚀 Live Demo
-
-Access the deployed app here: **[https://aware-citizen.streamlit.app/](https://aware-citizen.streamlit.app)** 
 
 ---
 
