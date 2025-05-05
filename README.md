@@ -91,7 +91,7 @@ streamlit run main.py
 
 ## 📊 Example Output
 
-> Party: Liberal Party of Canada  
+> Party: Magical Party of Eternia  
 > **Score:** 16/20  
 > **Explanation:** Historically fulfilled most promises. Promoting universal healthcare, climate action, and inclusive economy. Previous term showed a rise in median household income and happiness index. [Source: Wikipedia]
 
