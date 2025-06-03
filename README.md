@@ -122,7 +122,4 @@ MIT License. Free to use and modify for non-commercial educational purposes.
 
 ## ✨ Future Improvements
 
-- 🌐 Multilingual analysis
-- 📎 PDF report generation
-- 🔀 Compare two political parties directly
-- 📡 Real-time news & Twitter sentiment integration
+Reduced Rate of Hallucinations
