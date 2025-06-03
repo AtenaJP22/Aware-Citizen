@@ -106,14 +106,6 @@ Aware-Citizen/
 
 ---
 
-## 🙋‍♀️ Author
-
-**Atena Parsa**  
-AI Engineering Student | Political Data Enthusiast  
-[LinkedIn](www.linkedin.com/in/atena-jafari-parsa) | [GitHub](https://github.com/AtenaJP22)
-
----
-
 ## 📄 License
 
 MIT License. Free to use and modify for non-commercial educational purposes.
