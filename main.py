@@ -1,5 +1,4 @@
-# hybrid_ai_voting_app/main.py
-
+import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -10,7 +9,20 @@ import re
 from openai import OpenAI
 
 # ====== API KEY CONFIGURATION ======
-OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+#OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+#client = OpenAI(api_key=OPENAI_API_KEY)
+
+# Try Streamlit secrets first, then fallback to environment var
+OPENAI_API_KEY = None
+try:
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+except Exception:
+    OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+
+if not OPENAI_API_KEY:
+    raise RuntimeError(
+        "OPENAI_API_KEY not set. Set it as an environment variable or provide .streamlit/secrets.toml"
+    )
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # ====== SYSTEM PROMPT ======
